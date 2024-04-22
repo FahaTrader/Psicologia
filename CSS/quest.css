@@ -118,7 +118,7 @@ form label{
     }
     
     .card{
-        width: 330px;
+        width: 350px;
         margin-top: 140px;
         align-items: center;
         justify-content: center;
@@ -155,7 +155,7 @@ form label{
         border: solid #dfd1d1;
         width: 300px;
         top: 480px;
-        right: 38px;
+        right: 42px;
         font-size: 20px;
     }
 
