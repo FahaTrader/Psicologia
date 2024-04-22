@@ -16,7 +16,7 @@ html, body{
 .card{
     margin-left: 220px;
     width: 600px;
-    margin-top: 40px;
+    margin-top: 10px;
     align-items: center;
     justify-content: center;
     border: none;
@@ -77,7 +77,7 @@ html, body{
     }
 }
 
-@media (max-width: 546px){
+@media (max-width: 480px){
     html, body{
         background-color: #dfd1d1;
         font-family: "Ruda", sans-serif;

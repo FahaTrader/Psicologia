@@ -1,6 +1,6 @@
 const gruposPerguntas = [
     {
-        nome: 'Vamos começar',
+        nome: '',
         title: 'Pessoal',
         perguntas: [
             'Tenho dedo podre no amor?',
@@ -20,7 +20,7 @@ const gruposPerguntas = [
         ]
     },
     {
-        nome: "Isso aí, continua",
+        nome: "",
         title: 'Amorosa',
         perguntas: [
             'Não consigo manter um relacionamento por muito tempo?',
@@ -40,7 +40,7 @@ const gruposPerguntas = [
         ]
     },
     {
-        nome: "Falta pouco...",
+        nome: "",
         title: 'Amizade',
         perguntas: [
             'Penso que as coisas devem ser do meu jeito?',
@@ -60,7 +60,7 @@ const gruposPerguntas = [
         ]
     },
     {
-        nome: "Já está no final",
+        nome: "",
         title: 'Profissional',
         perguntas: [
             'Faço o perfil mandão?',
@@ -150,7 +150,7 @@ function mostrarResultado() {
             mensagem = resultado.sim > resultado.nao ? 'Ativo.' : 'Preguiçoso.';
         }
 
-        resultadoElement.innerHTML += `<p>Grupo ${grupo.title}: ${mensagem}</p>`;
+        resultadoElement.innerHTML += `<p><b>Grupo ${grupo.title}:</b> ${mensagem}</p>`;
     });
 }
 
