@@ -150,12 +150,12 @@ form label{
     }
 
     .btn-color{
-        position: fixed;
+        position: absolute;
         background-color: white;
         border: solid #dfd1d1;
         width: 300px;
-        top: 480px;
-        right: 42px;
+        top: 340px;
+        right: 25px;
         font-size: 20px;
     }
 
