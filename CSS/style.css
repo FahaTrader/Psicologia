@@ -14,7 +14,7 @@ html, body{
 }
 
 .card{
-    margin-left: 220px;
+    display: flex;
     width: 600px;
     margin-top: 10px;
     align-items: center;
@@ -90,11 +90,11 @@ html, body{
     }
     
     .card{
+        display: flex;
         width: 330px;
         margin-top: 5px;
         align-items: center;
         justify-content: center;
-        margin-left: 23px;
     }
 
     .form{
