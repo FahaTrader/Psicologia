@@ -4,7 +4,7 @@
     }
     
     .card{
-      margin-left: 0;
+      display: flex;
       width: 550px;
       margin-top: 70px;
       align-items: center;
@@ -20,7 +20,10 @@
     
     /*----- Section Quest -----*/
     #quest .card{
+      display: flex;
       margin-top: 200px;
+      justify-content: center;
+      align-itens: center;
     }
     
     .img-button{
