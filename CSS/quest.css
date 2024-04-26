@@ -18,12 +18,7 @@ span{
     display: none!important;
 }
 
-.container-fluid{
-    padding: 0 15%;
-}
-
 .card{
-    display: flex;
     width: 600px;
     margin-top: 110px;
     border: none;
@@ -69,12 +64,12 @@ form label{
 }
 
 .btn-color{
-    position: fixed;
+    position: absolute;
     background-color: white;
     border: solid #dfd1d1;
     width: 460px;
-    top: 450px;
-    right: 410px;
+    top: 340px;
+    right: 70px;
     font-size: 20px;
 }
 
@@ -114,14 +109,9 @@ form label{
         align-items: center;
         justify-content: center;
     }
-
-    .container-fluid{
-        padding: 0;
-    }
     
     .card{
-        display: flex;
-        width: 350px;
+        width: 330px;
         margin-top: 140px;
         align-items: center;
         justify-content: center;
@@ -157,7 +147,7 @@ form label{
         border: solid #dfd1d1;
         width: 300px;
         top: 340px;
-        right: 25px;
+        right: 15px;
         font-size: 20px;
     }
 
