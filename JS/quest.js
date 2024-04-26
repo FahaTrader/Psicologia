@@ -193,7 +193,7 @@ enviarResultado.addEventListener('click', function(){
             }
 
             // Formatar a mensagem para o WhatsApp
-            const mensagemFormatada = `\n*Grupo ${grupo.title}:* ${mensagem}\n*Sim:* ${resultado.sim}\n*Não:* ${resultado.nao}`;
+            const mensagemFormatada = `*Grupo ${grupo.title}:* ${mensagem}\n*Sim:* ${resultado.sim}\n*Não:* ${resultado.nao}`;
             mensagens.push(mensagemFormatada); // Adiciona a mensagem ao array de mensagens
         });
 
@@ -204,7 +204,7 @@ enviarResultado.addEventListener('click', function(){
         const mensagensFormatadas = mensagens.map(mensagem => encodeURIComponent(mensagem)).join('%0A%0A');
 
         // Criar o link para abrir o WhatsApp Web com as mensagens preenchidas
-        const linkWhatsApp = `https://wa.me/5521982565890?text=Ol%C3%A1,%20Dra.%20Rayane!!%0AAqui%20est%C3%A1%20o%20meu%20Resultado:%0A%0A(${mensagemFormatada})`;
+        const linkWhatsApp = `https://wa.me/5521982565890?text=Ol%C3%A1,%20Dra.%20Rayane!!%0AAqui%20est%C3%A1%20o%20meu%20Resultado:%0A%0A${mensagemFormatada}`;
     
         // Abrir o link em uma nova aba
         window.open(linkWhatsApp);
