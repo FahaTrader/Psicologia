@@ -6,10 +6,6 @@ html, body{
     font-family: "Ruda", sans-serif;
 }
 
-.container-fluid{
-    padding: 0 15%;
-}
-
 .hidden{
     display: none!important;
 }
