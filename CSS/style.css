@@ -80,6 +80,7 @@ html, body{
 
 @media (max-width: 480px){
     html, body{
+        display: flex;
         background-color: #dfd1d1;
         font-family: "Ruda", sans-serif;
         align-items: center;
