@@ -15,11 +15,8 @@ html, body{
 }
 
 .card{
-    display: flex;
     width: 600px;
     margin-top: 10px;
-    align-items: center;
-    justify-content: center;
     border: none;
 }
 
