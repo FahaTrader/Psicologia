@@ -13,11 +13,14 @@ const removeloading = () => {
 const handleSubmit = (event) => {
     event.preventDefault();
     addloading();
-    
+
+    const data = new Date()
 
     const NOME = document.querySelector('input[name=name]').value;
     const WHATSAPP = document.querySelector('input[name=tel]').value;
-    const NASCIMENTO = document.querySelector('input[name=date]').value;
+    const inputDate = document.querySelector('input[name=date]').value;
+    const parts = inputDate.split('-');
+    const NASCIMENTO = `${parts[2]}/${parts[1]}/${parts[0]}/`;
 
     fetch('https://api.sheetmonkey.io/form/3m1vGSyKv9idvhSJwAdzVp', {
 
