@@ -20,7 +20,7 @@ const handleSubmit = (event) => {
     const WHATSAPP = document.querySelector('input[name=tel]').value;
     const inputDate = document.querySelector('input[name=date]').value;
     const parts = inputDate.split('-');
-    const NASCIMENTO = `${parts[2]}/${parts[1]}/${parts[0]}/`;
+    const NASCIMENTO = `${parts[2]}/${parts[1]}/${parts[0]}`;
 
     fetch('https://api.sheetmonkey.io/form/3m1vGSyKv9idvhSJwAdzVp', {
 
