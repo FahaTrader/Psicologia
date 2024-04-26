@@ -6,7 +6,7 @@ const addloading = () => {
 }
 
 const removeloading = () => {
-    button.innerHTML = 'Enviar';
+    button.innerHTML = 'Prontinho!!';
 }
 
 // Salvando o formulário no excel
