@@ -193,7 +193,7 @@ enviarResultado.addEventListener('click', function(){
             }
 
             // Formatar a mensagem para o WhatsApp
-            const mensagemFormatada = `\n\n*Grupo ${grupo.title}:* ${mensagem}\n*Sim:* ${resultado.sim}\n*Não:* ${resultado.nao}`;
+            const mensagemFormatada = `\n*Grupo ${grupo.title}:* ${mensagem}\n*Sim:* ${resultado.sim}\n*Não:* ${resultado.nao}`;
             mensagens.push(mensagemFormatada); // Adiciona a mensagem ao array de mensagens
         });
 
